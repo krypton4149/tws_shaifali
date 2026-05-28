@@ -120,10 +120,6 @@ export default function Header() {
         style={{ pointerEvents: isOpen ? 'auto' : 'none' }}
       >
         <div className="flex flex-col h-full pt-20 px-6">
-          <div className="mb-8 pb-6 border-b border-gold/15">
-            <BrandLogo compact />
-          </div>
-
           <nav className="flex-1 space-y-2">
             {navLinks.map((link, i) => (
               <Link key={link.path} to={link.path} onClick={() => setIsOpen(false)}>
