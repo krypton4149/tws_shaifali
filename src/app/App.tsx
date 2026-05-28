@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import FloatingParticles from './components/FloatingParticles';
 import AnimatedBackground from './components/AnimatedBackground';
 import LoadingScreen from './components/LoadingScreen';
-import CursorFollower from './components/CursorFollower';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import AboutPage from './pages/AboutPage';
@@ -17,7 +16,6 @@ export default function App() {
   return (
     <BrowserRouter>
       <LoadingScreen />
-      <CursorFollower />
       <div className="relative min-h-screen bg-black text-foreground overflow-x-hidden">
         <SEO />
         <AnimatedBackground />

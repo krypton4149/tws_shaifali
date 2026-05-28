@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://twstransformation.com/sitemap.xml
